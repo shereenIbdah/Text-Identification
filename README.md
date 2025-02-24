@@ -1,14 +1,14 @@
 # Arabic Handwritten Text Identification Using Local Feature Extraction Techniques
 
-## 📌 Overview
+##  Overview
 This project is part of the **ENCS5343 Computer Vision** course at **Birzeit University**. The aim is to implement and compare local feature extraction techniques for identifying handwritten Arabic text using **SIFT (Scale-Invariant Feature Transform)** and **ORB (Oriented FAST and Rotated BRIEF)**. The study evaluates these algorithms based on accuracy, computational efficiency, and robustness.
 
-## 📂 Dataset
+##  Dataset
 We use the **AHAWP dataset** (Arabic Handwritten Automatic Word Processing), which consists of **8,144 handwritten word images** from **82 different writers**. Each writer contributed **10 samples** for each of the **10 unique Arabic words**.
 
 🔗 **Dataset Link**: [AHAWP Dataset](https://data.mendeley.com/datasets/2h76672znt/1/files/9031138a-b812-433e-a704-8acb1707936e)
 
-## 🏆 Objectives
+##  Objectives
 - **Extract features** using SIFT and ORB algorithms.
 - **Transform features** into fixed-length histograms using the Bag of Words (BoW) model.
 - **Train a classifier** using Support Vector Machines (SVM).
